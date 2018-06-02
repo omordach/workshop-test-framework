@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "testBrowser",
+    "uid" : "4c51e0535a804026",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1527944381903,
+      "stop" : 1527944382418,
+      "duration" : 515
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testHomePage",
+    "uid" : "9ecb2912179e2cd5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1527944387632,
+      "stop" : 1527944390249,
+      "duration" : 2617
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

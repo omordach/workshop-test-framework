@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestHomePage.testHomePage","2617","test case verifies field input on registration page"
+"passed","TestBrowser.testBrowser","515",""
