@@ -11,5 +11,6 @@ public class TestHomePage extends TestBase {
                 .clickRegistrationButton()
                 .fillNameInput("Oleh")
                 .fillLastNameInput("Mordach");
+
     }
 }

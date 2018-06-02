@@ -5,6 +5,7 @@
     <!-- <parameter name="browser" value="FIREFOX"/> -->
     <test name="Test HomePage" >
         <classes>
+            <class name="TestBrowser" />
             <class name="TestHomePage" />
         </classes>
     </test>
