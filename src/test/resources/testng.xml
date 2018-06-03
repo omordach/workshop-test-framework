@@ -8,6 +8,7 @@
             <class name="Test1RegistrationProcess" />
             <class name="Test2MandatoryFieldsAndDataValidationOnRegistrationPage"/>
             <class name="Test3BoxDraggingOnTheDraggablePage"/>
+            <class name="Test4SelectingMultipleOptionsOnTheSelectablePage"/>
         </classes>
     </test>
 </suite>

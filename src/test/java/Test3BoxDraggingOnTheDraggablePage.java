@@ -33,7 +33,7 @@ public class Test3BoxDraggingOnTheDraggablePage extends TestBase {
 
         File screenshot1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(screenshot1, new File("target/before.png"));
+            FileUtils.copyFile(screenshot1, new File("target/1_before_drag.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -43,7 +43,7 @@ public class Test3BoxDraggingOnTheDraggablePage extends TestBase {
 
         File screenshot2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(screenshot2, new File("target/after.png"));
+            FileUtils.copyFile(screenshot2, new File("target/2_after_drag.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

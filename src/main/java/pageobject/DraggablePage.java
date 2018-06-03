@@ -1,12 +1,16 @@
 package pageobject;
 
+import common.LogFactory;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
 
 public class DraggablePage extends SideMenu {
+
+    private static final Logger LOG = LogFactory.getLogger(DraggablePage.class);
 
     @FindBy(css = ".entry-title")
     public WebElement pageTitle;

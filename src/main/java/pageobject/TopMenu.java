@@ -1,16 +1,20 @@
 package pageobject;
 
+import common.LogFactory;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 public class TopMenu {
+
+    private static final Logger LOG = LogFactory.getLogger(TopMenu.class);
 
     @FindBy(id = "menu-item-38")
     protected WebElement homeButton;
