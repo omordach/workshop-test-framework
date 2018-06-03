@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-public class TestRegistrationPage1 extends TestBase {
+public class Test1RegistrationProcess extends TestBase {
 
 
     @DataProvider(name = "Registration")
@@ -25,7 +25,7 @@ public class TestRegistrationPage1 extends TestBase {
 
 
     @Test(dataProvider = "Registration")
-    @Description("test case verifies field input on registration page")
+    @Description("Test case for registration process (positive scenario). Using data provider for user data.")
     public void testHomePage(String FirstName, String LastName, String Country, String Month, String Day, String Year,
                              String Phone, String Username, String Email, String Path, String Desc, String Pass,
                              String CPass) {

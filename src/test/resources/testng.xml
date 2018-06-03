@@ -5,7 +5,9 @@
     <!-- <parameter name="browser" value="FIREFOX"/> -->
     <test name="Test HomePage" >
         <classes>
-            <class name="TestRegistrationPage1" />
+            <class name="Test1RegistrationProcess" />
+            <class name="Test2MandatoryFieldsAndDataValidationOnRegistrationPage"/>
+            <class name="Test3BoxDraggingOnTheDraggablePage"/>
         </classes>
     </test>
 </suite>
