@@ -9,6 +9,7 @@
             <class name="Test2MandatoryFieldsAndDataValidationOnRegistrationPage"/>
             <class name="Test3BoxDraggingOnTheDraggablePage"/>
             <class name="Test4SelectingMultipleOptionsOnTheSelectablePage"/>
+            <class name="Test5SwitchingBetweenFramesAndBrowserTabsOnFramesAndWindowsPage"/>
         </classes>
     </test>
 </suite>

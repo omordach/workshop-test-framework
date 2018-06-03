@@ -25,6 +25,9 @@ public class SideMenu extends TopMenu {
     @FindBy(css = "#menu-item-142")
     public WebElement selectableButton;
 
+    @FindBy(css = "#menu-item-148")
+    public WebElement framesAndWindowsButton;
+
     private WebDriver driver;
 
     public SideMenu(WebDriver driver) {
@@ -49,6 +52,12 @@ public class SideMenu extends TopMenu {
     public SelectablePage clickSelectableButton() {
         selectableButton.click();
         return PageFactory.initElements(driver, SelectablePage.class);
+    }
+
+    @Step("Clicked framesAndWindowsButton button")
+    public FramesAndWindowsPage clickFramesAndWindowsButton() {
+        framesAndWindowsButton.click();
+        return PageFactory.initElements(driver, FramesAndWindowsPage.class);
     }
 
     public List<WebElement> getAllSideMenuButtons() {
