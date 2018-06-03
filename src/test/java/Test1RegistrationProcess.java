@@ -14,12 +14,12 @@ public class Test1RegistrationProcess extends TestBase {
     public static Object[][] credentials() {
 
         return new Object[][]{
-                {"Oleh", "Mordach", "Ukraine", "5", "2", "1988", "0637315500", "omordach1",
-                        "omordach+1@gmail.com", "/home/oleh/workshoptestframework/src/test/resources/pic.png",
+                {"Oleh", "Mordach", "Ukraine", "5", "2", "1988", "0637315500", "omordach3",
+                        "omordach+3@gmail.com", "/home/oleh/workshoptestframework/src/test/resources/pic.png",
                         "Lorem ipsum dolor si amet", "Oleg27Oleg27", "Oleg27Oleg27"},
 
-                {"Oleh", "Mordach", "Ukraine", "5", "2", "1988", "0637315500", "omordach2",
-                        "omordach+2@gmail.com", "/home/oleh/workshoptestframework/src/test/resources/pic.png",
+                {"Oleh", "Mordach", "Ukraine", "5", "2", "1988", "0637315500", "omordach4",
+                        "omordach+4@gmail.com", "/home/oleh/workshoptestframework/src/test/resources/pic.png",
                         "Lorem ipsum dolor si amet", "Oleg27Oleg27", "Oleg27Oleg27"}};
     }
 
