@@ -16,8 +16,5 @@ public class Test5SwitchingBetweenFramesAndBrowserTabsOnFramesAndWindowsPage ext
                 .switchToTopFrame()
                 .switchToContentFrame();
 
-
-
-
     }
 }
